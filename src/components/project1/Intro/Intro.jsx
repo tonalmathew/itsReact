@@ -1,4 +1,4 @@
-import tonal from '../../assets/tonal-new.jpg'
+import tonal from '../../../assets/tonal-new.jpg'
 import './Intro.css'
 
 function App() {
