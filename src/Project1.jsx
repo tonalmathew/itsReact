@@ -7,7 +7,7 @@ import './Project1.css'
 function App() {
 
   return (
-    <div className="App">
+    <div className="Project1">
       <Intro />
       <About />
       <Intrest />
