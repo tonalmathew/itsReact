@@ -8,7 +8,7 @@ function Card(props) {
   return (
     <div className="card">
       <div className="img">
-        <img src={imageUrl} alt="" />
+        <img className="card-img" src={imageUrl} alt="" />
       </div>
       <div className="card-body">
         <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">

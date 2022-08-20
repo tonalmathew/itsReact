@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="Intro">
-      <img src={tonal} width="100%" alt="tonal" />
+      <img className='profile-img' src={tonal} alt="tonal" />
       <div className="container">
         <h1>Tonal Mathew</h1>
         <p>Fullstack Developer</p>
