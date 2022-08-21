@@ -1,17 +1,17 @@
-nav {
+.project2-nav {
   height: 55px;
   background-color: #F55A5A;
   display: flex;
   justify-content: center;
 }
 
-nav > svg {
+.project2-nav > svg {
   position: relative;
   margin: 0 10px;
   top: 15px;
 }
 
-nav > p {
+.project2-nav > p {
   font-weight: 400;
   font-size: 14.46px;
   color: white;
