@@ -1,8 +1,15 @@
 .route-link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
-.router-bullet::marker {
-color: white;
+
+
+.Home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

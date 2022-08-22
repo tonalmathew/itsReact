@@ -7,14 +7,12 @@ export default function Home() {
   return (
         <>
     <nav className="Home">
-        <ul>
-          <li className="router-bullet">
+          <p>
             <Link className="route-link" to='/project1'>Project 1</Link>
-          </li>
-          <li className="router-bullet">
+          </p>
+          <p>
             <Link className="route-link" to='/project2'>Project 2</Link>
-          </li>
-        </ul>
+          </p>
       </nav>
       
       
