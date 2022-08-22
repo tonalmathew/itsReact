@@ -5,17 +5,3 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()]
 })
-
-// export default defineConfig(({ command }) => {
-//   if (command === 'serve') {
-//       return {
-//         base: '/',
-//         plugins: [react()]
-//       }
-//     } else {
-//       return {
-//         base: '/itsReact/',
-//         plugins: [react()]
-//       }
-//     }
-// })
