@@ -13,9 +13,10 @@ export default function Home() {
           <p>
             <Link className="route-link" to='/project2'>Project 2</Link>
           </p>
+          <p>
+            <Link className="route-link" to='/project3'>Project 3</Link>
+          </p>
       </nav>
-      
-      
     </>
   )
 }
