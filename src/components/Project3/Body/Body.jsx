@@ -1,6 +1,7 @@
+import axios from 'axios';
 import React from 'react'
 import './Body.css'
-// import memeData from '../../../../api/memeData'
+import memeData from '../../../../api/memeData'
 
 export default function Body() {
 
@@ -10,8 +11,16 @@ export default function Body() {
     randomImage: "http://i.imgflip.com/1bij.jpg" 
   })
 
+  const [allMemeImage, setAllMemeImage] = React.useState(memeData)
+
   function getMemeImage() {
-    
+    const memeArray = allMemeImage.data.memes
+    const randomNumber = Math.floor(Math.random()*memeArray.length)
+    const url = memeArray[randomNumber].url
+    setMeme(prevMeme => ({
+        ...prevMeme,
+      randomImage: url
+    }))
   }
 
   function inputData(event){
