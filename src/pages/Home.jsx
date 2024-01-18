@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import './Home.css'
+import styles from './Home.module.css'
 
 export default function Home() {
   return (
         <>
-    <nav className="Home">
+    <nav className={styles.Home}>
           <p>
             <Link className="route-link" to='/project1'>Project 1</Link>
           </p>

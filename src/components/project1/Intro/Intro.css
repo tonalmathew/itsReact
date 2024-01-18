@@ -52,12 +52,12 @@
 
 .button-icon {
   position: relative;
-  top: 3px;
+  top: 0px;
   width: 16px;
 }
 
 .button {
-  padding: 3px 13px 9px 11px;
+  /* padding: 3px 13px 9px 11px; */
   border-radius: 6px;
   height: 34px;
   width: 115px;
