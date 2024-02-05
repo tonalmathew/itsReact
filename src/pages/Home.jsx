@@ -25,6 +25,9 @@ export default function Home() {
           <p>
             <Link className="route-link" to='/project6'>Project 6</Link>
           </p>
+          <p>
+            <Link className="route-link" to='/project7'>Project 7</Link>
+          </p>
       </nav>
     </>
   )
