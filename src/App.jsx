@@ -7,6 +7,7 @@ import Project4 from './pages/Project4'
 import Project5 from './pages/Project5'
 import Project6 from './pages/Project6'
 import Project7 from './pages/Project7'
+import Project8 from './pages/Project8'
 import './App.css'
 
 
@@ -30,6 +31,7 @@ function App() {
       <Route path="/project5" element={<Project5 />}/>
       <Route path="/project6" element={<Project6 />}/>
       <Route path="/project7" element={<Project7 />}/>
+      <Route path="/project8" element={<Project8 />}/>
       <Route path="*" element={<h1><pre style={styles}>Page not found 💀 </pre></h1>}/>
     </Routes>
   )
