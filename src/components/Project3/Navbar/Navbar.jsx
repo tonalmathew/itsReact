@@ -9,9 +9,6 @@ export default function Navbar() {
         <img src={meme} width="40px" /> 
         <p className="title-text">MemeGenerator</p>
       </div>
-      <div className="head-right">
-        <p className="nav-text">React Course - Project 3</p>
-      </div>
     </div>
   )
 }
